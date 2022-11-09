@@ -1,0 +1,154 @@
+html {
+    background: url("assets_cv/1550170.jpg");
+    -webkit-background-size: cover;
+    -moz-background-size: cover;
+    -o-background-size: cover;
+    background-size: cover;
+}
+a {
+    color: white;
+}
+body {
+    font-family: "Courier New";
+    color: lightslategray;
+}
+.profielfoto {
+    height: 150px;
+    width: 150px;
+
+}
+.gbdatumicon {
+    height: 30px;
+    width: 30px;
+}
+.huisicon {
+    height: 30px;
+    width: 30px;
+}
+.telefoonicon {
+    height: 30px;
+    width: 30px;
+}
+.mailicon {
+    height: 30px;
+    width: 30px;
+}
+.linkedinicon {
+    height: 30px;
+    width: 30px;
+}
+.gbdatum {
+    display: flex;
+    flex-direction: row;
+}
+.thuis {
+    display: flex;
+    flex-direction: row;
+}
+.telefoon {
+    display: flex;
+    flex-direction: row;
+}
+.mail {
+    display: flex;
+    flex-direction: row;
+}
+.linkedin {
+    display: flex;
+    flex-direction: row;
+}
+.container_linksboven {
+    display: inline-block;
+    border: 3px solid lightslategray;
+    padding: 15px;
+    margin: 15px;
+    text-align: center;
+}
+.container_linksonder {
+    display: flex;
+    flex-direction: column;
+    padding: 15px;
+    margin: 15px;
+    text-align: center;
+    align-items: center;
+    justify-content: center;
+    border: 3px solid lightslategray;
+}
+.container_linkerzijde {
+    display: flex;
+    flex-direction: column;
+    float: left;
+}
+.container_middenonder {
+    display: inline-block;
+    margin: 25px;
+
+
+}
+.container_middenboven {
+    display: inline-block;
+    margin: 25px;
+    padding: 40px;
+}
+
+.container_middenstuk {
+    display: flex;
+    flex-direction: column;
+    text-align: center;
+    align-items: center;
+}
+.tabel_werkervaring, th, tr, td {
+    text-align: center;
+    vertical-align: bottom;
+    padding: 10px;
+}
+
+.nlicon {
+    height: 50px;
+    width: 80px;
+}
+.engicon {
+    height: 50px;
+    width: 80px;
+}
+.duitsicon {
+    height: 50px;
+    width: 80px;
+}
+.fricon {
+    height: 50px;
+    width: 80px;
+}
+.plicon {
+    height: 50px;
+    width: 80px;
+}
+.nederlands {
+    display: flex;
+    flex-direction: column;
+}
+.engels {
+    display: flex;
+    flex-direction: column;
+}
+.duits {
+    display: flex;
+    flex-direction: column;
+}
+.frans {
+    display: flex;
+    flex-direction: column;
+}
+.pools {
+    display: flex;
+    flex-direction: column;
+}
+.container_extra {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    flex-direction: column;
+}
+.container_textgen {
+    color: limegreen;
+}
