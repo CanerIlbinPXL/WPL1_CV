@@ -13,9 +13,16 @@ body {
     color: lightslategray;
 }
 .profielfoto {
-    height: 150px;
-    width: 150px;
+    height: 180px;
+    width: 180px;
 
+}
+.profielfoto:hover {
+    box-shadow: 10px 10px 10px black;
+}
+.profielfoto:active {
+    border: solid black 3px;
+    box-shadow: 0px 0px;
 }
 .gbdatumicon {
     height: 30px;
@@ -148,7 +155,11 @@ body {
     align-items: center;
     justify-content: center;
     flex-direction: column;
+    padding: 100px;
 }
 .container_textgen {
+    color: limegreen;
+}
+tr:nth-child(2n+1):not(:first-child) {
     color: limegreen;
 }
