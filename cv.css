@@ -4,17 +4,32 @@ html {
     -moz-background-size: cover;
     -o-background-size: cover;
     background-size: cover;
+    font-size: medium;
+}
+* {
+    box-sizing: border-box;
 }
 a {
-    color: white;
+    color: limegreen;
 }
 body {
     font-family: "Courier New";
     color: lightslategray;
 }
+@media only screen and (max-width: 480px) {
+.container_linksboven, .container_linksonder, .container_extra, .container_linkerzijde, .container_middenstuk .container_footer, .container_middenboven, .container_middenonder{
+    width: 100%;
+}
+}
+@media only screen and (max-width: 800px) {
+    .container_linksboven, .container_linksonder, .container_extra, .container_linkerzijde, .container_middenstuk .container_footer, .container_middenboven, .container_middenonder{
+        width: 100%;
+    }
+}
+
 .profielfoto {
-    height: 180px;
-    width: 180px;
+    height: 140px;
+    width: 120px;
 
 }
 .profielfoto:hover {
@@ -45,53 +60,61 @@ body {
     width: 30px;
 }
 .gbdatum {
-    display: flex;
-    flex-direction: row;
+
 }
 .thuis {
-    display: flex;
-    flex-direction: row;
+
 }
 .telefoon {
-    display: flex;
-    flex-direction: row;
+
 }
 .mail {
-    display: flex;
-    flex-direction: row;
+
 }
 .linkedin {
-    display: flex;
-    flex-direction: row;
+
 }
 .container_linksboven {
-    display: inline-block;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
     border: 3px solid lightslategray;
     padding: 15px;
     margin: 15px;
     text-align: center;
+
+
 }
 .container_linksonder {
     display: flex;
     flex-direction: column;
     padding: 15px;
     margin: 15px;
+    border: 3px solid lightslategray;
     text-align: center;
     align-items: center;
-    justify-content: center;
-    border: 3px solid lightslategray;
 }
 .container_linkerzijde {
     display: flex;
     flex-direction: column;
     float: left;
+    width: 35%;
+
 }
 .container_middenonder {
     display: inline-block;
-    margin: 25px;
-
 
 }
+.lijst1 , .lijst2 , .lijst3 , .lijst4 {
+    margin: 35px;
+}
+li:nth-child(2n+1) {
+   font-weight: bold;
+}
+ul {
+    list-style: none;
+}
+
 .container_middenboven {
     display: inline-block;
     margin: 25px;
@@ -103,11 +126,8 @@ body {
     flex-direction: column;
     text-align: center;
     align-items: center;
-}
-.tabel_werkervaring, th, tr, td {
-    text-align: center;
-    vertical-align: bottom;
-    padding: 10px;
+    width: 65%;
+    float: left;
 }
 
 .nlicon {
@@ -130,25 +150,10 @@ body {
     height: 50px;
     width: 80px;
 }
-.nederlands {
+.talen {
     display: flex;
     flex-direction: column;
-}
-.engels {
-    display: flex;
-    flex-direction: column;
-}
-.duits {
-    display: flex;
-    flex-direction: column;
-}
-.frans {
-    display: flex;
-    flex-direction: column;
-}
-.pools {
-    display: flex;
-    flex-direction: column;
+    align-items: center;
 }
 .container_extra {
     display: flex;
@@ -156,10 +161,40 @@ body {
     justify-content: center;
     flex-direction: column;
     padding: 100px;
+    width: 65%;
+    float: left;
 }
 .container_textgen {
     color: limegreen;
 }
 tr:nth-child(2n+1):not(:first-child) {
-    color: limegreen;
+    background-color: darkslateblue;
+
 }
+ul {
+
+}
+.container_footer {
+    width: 100%;
+    text-align: center;
+    display: flex;
+    flex-direction: row;
+    justify-content: space-around;
+    color: dimgray;
+    float: left;
+}
+.footer_links {
+    display: flex;
+    flex-direction: row;
+
+}
+.footer_midden {
+    display: flex;
+    flex-direction: row;
+}
+.footer_rechts {
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+}
+
