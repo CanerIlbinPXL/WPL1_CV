@@ -28,8 +28,9 @@ body {
 }
 
 .profielfoto {
-    height: 140px;
-    width: 120px;
+    height: 160px;
+    width: 140px;
+    border: solid darkslateblue 2px;
 
 }
 .profielfoto:hover {
@@ -59,20 +60,8 @@ body {
     height: 30px;
     width: 30px;
 }
-.gbdatum {
-
-}
-.thuis {
-
-}
-.telefoon {
-
-}
-.mail {
-
-}
-.linkedin {
-
+.linkedinicon:hover {
+    box-shadow: 2px 2px 2px 2px darkslateblue;
 }
 .container_linksboven {
     display: flex;
@@ -82,8 +71,6 @@ body {
     padding: 15px;
     margin: 15px;
     text-align: center;
-
-
 }
 .container_linksonder {
     display: flex;
@@ -166,6 +153,9 @@ ul {
 }
 .container_textgen {
     color: limegreen;
+    padding: 15px;
+    margin: 15px;
+
 }
 tr:nth-child(2n+1):not(:first-child) {
     background-color: darkslateblue;
@@ -186,7 +176,6 @@ ul {
 .footer_links {
     display: flex;
     flex-direction: row;
-
 }
 .footer_midden {
     display: flex;
